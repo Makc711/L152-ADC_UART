@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{df98fb52-0201-4824-8382-c0782c8b28bb}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{902558f7-ffd1-4789-b8ce-dbc98d63c17d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{dd637ba5-b4a4-48e6-a7fe-1b8ff1338fd2}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Core">
+      <UniqueIdentifier>{bdbaac2b-9b77-4f4c-94ea-49fd164d3c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Core\Inc">
+      <UniqueIdentifier>{55c42393-ab54-4dbe-b987-13c14957f5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Core\Src">
+      <UniqueIdentifier>{d755e2c6-074c-47cf-9d4e-1ae7a3cefb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Core\Startup">
+      <UniqueIdentifier>{a5268a70-5a44-406e-ae2a-64dda74bff96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers">
+      <UniqueIdentifier>{d5a06332-2b2e-48aa-adf1-cf4f0631884f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS">
+      <UniqueIdentifier>{0677594b-e0c0-4e1a-9b01-a0c374327510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Device">
+      <UniqueIdentifier>{afcb719b-0635-4d4a-9c99-655cff9c8d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Device\ST">
+      <UniqueIdentifier>{3d0e996e-80de-47d3-8939-7cde583d6769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Device\ST\STM32L1xx">
+      <UniqueIdentifier>{33ecac2f-8a87-4f42-9a6a-f6830ad595d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Device\ST\STM32L1xx\Include">
+      <UniqueIdentifier>{47f97ba1-c6ac-4299-81e2-6e5fd082db54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Include">
+      <UniqueIdentifier>{315a32b8-ae3f-4b76-aca7-d4b6b7ebfce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32L1xx_HAL_Driver">
+      <UniqueIdentifier>{7f36c136-cf88-41b2-b2c2-9aae15863362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32L1xx_HAL_Driver\Inc">
+      <UniqueIdentifier>{74d15c62-c330-4c06-98a0-bf6ee9ae317c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy">
+      <UniqueIdentifier>{e5680923-e2ff-4386-93ec-6d62e8816697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32L1xx_HAL_Driver\Src">
+      <UniqueIdentifier>{3c88c076-9fa8-4230-8a34-a257badd0906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app">
+      <UniqueIdentifier>{5cc2b327-c70b-4df1-bb92-c6696f2baeab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\app">
+      <UniqueIdentifier>{1fc681b6-e609-4df3-95fe-0f89b60ad60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\app\drivers">
+      <UniqueIdentifier>{aea86651-e7ea-43ba-b1f7-502027c314c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\app\drivers\memory">
+      <UniqueIdentifier>{0ec7fb73-1f8f-461f-904b-4912321823aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\app\drivers\xprintf">
+      <UniqueIdentifier>{7a6a358d-017a-44a7-a45f-2c4cc07dd880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\app\hardware">
+      <UniqueIdentifier>{f48f5327-2e8b-4c66-9c27-b7d1faccc917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\app\hardware\adc">
+      <UniqueIdentifier>{991c9a68-cbff-40ad-a9df-d3f78b68a604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\app\hardware\flash">
+      <UniqueIdentifier>{8cf15e62-6eb4-4d24-bb7e-0aa382c524df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Core">
+      <UniqueIdentifier>{917815e0-8fa4-4b00-a589-d9a708cfe0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Core\Inc">
+      <UniqueIdentifier>{9e474a12-9169-426c-9e29-9753cb91b3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Core\Src">
+      <UniqueIdentifier>{a7fbecf9-c51f-462f-928b-09c3f6e8896b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Core\Startup">
+      <UniqueIdentifier>{4d6b7d4a-3a5a-434c-86e0-8e7b023ffb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers">
+      <UniqueIdentifier>{175045af-27f5-43a4-82a1-843f28fb9089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\CMSIS">
+      <UniqueIdentifier>{14adb31d-3cc7-49bf-9609-552b79c4c711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\CMSIS\Device">
+      <UniqueIdentifier>{e8bdcdbb-2b7c-4dc1-be0c-270f7f855369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\CMSIS\Device\ST">
+      <UniqueIdentifier>{e406626e-44b5-44dc-9a20-f4a45c3443f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\CMSIS\Device\ST\STM32F7xx">
+      <UniqueIdentifier>{714cb9f6-dfa3-4215-a893-d2249fadaf3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\CMSIS\Device\ST\STM32F7xx\Include">
+      <UniqueIdentifier>{57e9f304-968b-4880-bd7b-7051eca6bce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\CMSIS\Include">
+      <UniqueIdentifier>{62b43d9a-aada-4485-bbf5-4b3e14b14df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\STM32F7xx_HAL_Driver">
+      <UniqueIdentifier>{0aa6c400-3e62-44ad-822b-785512f20073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc">
+      <UniqueIdentifier>{b0f5ed12-98ec-4239-975f-08e47b477726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc\Legacy">
+      <UniqueIdentifier>{e38be020-8bf6-46d4-9481-72cda786630e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\app\Drivers\STM32F7xx_HAL_Driver\Src">
+      <UniqueIdentifier>{053e987b-1033-48c4-8811-3fb96416894a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{73e0e273-8b15-4672-90a3-bc726e2f0e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core">
+      <UniqueIdentifier>{ef17ec0b-6358-4d63-844a-99d1389386a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Inc">
+      <UniqueIdentifier>{4a843304-7775-4efa-bdcf-45560b41fbbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Src">
+      <UniqueIdentifier>{98775a18-660b-4cbb-86ef-d935bf661d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Startup">
+      <UniqueIdentifier>{432005e5-6a52-45de-a775-a95c0e86ee4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers">
+      <UniqueIdentifier>{3af153bc-f7d9-4407-8b2d-de72af1cc5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS">
+      <UniqueIdentifier>{d05f6c8d-18a0-4094-ad0a-649a369c7421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Device">
+      <UniqueIdentifier>{e145393f-b6a1-43bb-adef-b0a0995a4cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Device\ST">
+      <UniqueIdentifier>{679d2eb0-cbf1-4503-b999-b6b5f4be2d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Device\ST\STM32L1xx">
+      <UniqueIdentifier>{b4dbeec1-d73f-467d-bd2c-039ec670ffea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Device\ST\STM32L1xx\Include">
+      <UniqueIdentifier>{f849bc72-a957-4d15-b40f-8222b0b29a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Include">
+      <UniqueIdentifier>{a4f3a5ae-eb62-45ba-99d1-553dc2040062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32L1xx_HAL_Driver">
+      <UniqueIdentifier>{b325a170-5102-42c6-ba8b-cc525d3dc8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32L1xx_HAL_Driver\Inc">
+      <UniqueIdentifier>{cac6ec4d-0143-47fb-8631-ccf8e05d3f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy">
+      <UniqueIdentifier>{883fa55a-1c1a-4589-a289-bf4563379bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32L1xx_HAL_Driver\Src">
+      <UniqueIdentifier>{666d51bd-6fb4-4b19-9297-d3d71824fb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app">
+      <UniqueIdentifier>{cd59adf4-2069-4759-89b7-8b6168a1436f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\app">
+      <UniqueIdentifier>{04d645e7-22b7-4746-a3a7-13d375c983c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\app\drivers">
+      <UniqueIdentifier>{67ae7c9d-c5c5-4228-89d0-1a56b3a389e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\app\drivers\memory">
+      <UniqueIdentifier>{903bffa8-cf95-4f57-950e-66392678bbf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\app\drivers\xprintf">
+      <UniqueIdentifier>{96f6393f-e2d0-4ad6-b992-03aa08f4f1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\app\hardware">
+      <UniqueIdentifier>{48c45e96-00f0-41b4-bd3b-c92661e60666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\app\hardware\adc">
+      <UniqueIdentifier>{d33f1790-e170-4414-8190-e7db6e30ec18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\app\hardware\flash">
+      <UniqueIdentifier>{5469ddf1-a46f-424d-b4b1-7e3b50700b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Core">
+      <UniqueIdentifier>{2ce842d6-07b7-4201-a9e1-37798c5b35a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Core\Inc">
+      <UniqueIdentifier>{77c84155-16ae-4958-839c-4f808aece699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Core\Src">
+      <UniqueIdentifier>{748fa6a4-a624-42e8-b560-a7cc07d203a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Core\Startup">
+      <UniqueIdentifier>{1141e9a6-d1d9-47de-8950-c32deec7492f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers">
+      <UniqueIdentifier>{3dae2745-abf9-4ddb-920c-9112dce077f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\CMSIS">
+      <UniqueIdentifier>{b6a0134a-746c-44d4-87c3-febac86bd0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\CMSIS\Device">
+      <UniqueIdentifier>{915713db-f39b-46e8-b0e1-a2a37889d566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\CMSIS\Device\ST">
+      <UniqueIdentifier>{54616fa4-f405-42dd-97ec-08c3e905450f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\CMSIS\Device\ST\STM32F7xx">
+      <UniqueIdentifier>{818cbcdf-61d2-487e-86d0-d3c8f529e699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\CMSIS\Device\ST\STM32F7xx\Include">
+      <UniqueIdentifier>{8a030c6a-868c-42cf-9429-971c0dd585fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\CMSIS\Include">
+      <UniqueIdentifier>{a5c55ad3-77ce-43bd-ba1e-369f9dd6a776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\STM32F7xx_HAL_Driver">
+      <UniqueIdentifier>{a43af4d1-68a8-461d-9713-90ddf713c82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\STM32F7xx_HAL_Driver\Inc">
+      <UniqueIdentifier>{8a61117d-d722-47c0-9f67-82b39712de04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\STM32F7xx_HAL_Driver\Inc\Legacy">
+      <UniqueIdentifier>{9de01462-6c48-4c5b-ab93-f1cefc9e1943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\app\Drivers\STM32F7xx_HAL_Driver\Src">
+      <UniqueIdentifier>{18385c53-6986-4bba-9a34-e47e91d3d766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{767d80dd-7b74-487b-becf-3b95cce5f4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{ff59a0ad-75ec-4201-ae2f-53df8b6d2a38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Inc\main.h">
+      <Filter>Source files\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Inc\stm32l1xx_hal_conf.h">
+      <Filter>Source files\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Inc\stm32l1xx_it.h">
+      <Filter>Source files\Core\Inc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Core\Src\main.cpp">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\stm32l1xx_hal_msp.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\stm32l1xx_it.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\syscalls.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\sysmem.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\system_stm32l1xx.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Startup\startup_stm32l152rctx.S">
+      <Filter>Source files\Core\Startup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\stm32l152xc.h">
+      <Filter>Source files\Drivers\CMSIS\Device\ST\STM32L1xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h">
+      <Filter>Source files\Drivers\CMSIS\Device\ST\STM32L1xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h">
+      <Filter>Source files\Drivers\CMSIS\Device\ST\STM32L1xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_armcc.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_armclang.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_compiler.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_gcc.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_iccarm.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_version.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_armv8mbl.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_armv8mml.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm0.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm0plus.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm1.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm23.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm3.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm33.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm4.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm7.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_sc000.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_sc300.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\mpu_armv7.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\mpu_armv8.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\tz_context.h">
+      <Filter>Source files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_adc.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_adc_ex.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cortex.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dma.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_exti.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ex.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ramfunc.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio_ex.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr_ex.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc_ex.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim_ex.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_uart.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_adc.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_bus.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_cortex.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_dma.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_exti.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_gpio.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_pwr.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_rcc.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_system.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_usart.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_utils.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_exti.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c">
+      <Filter>Source files\Drivers\STM32L1xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\app\drivers\memory\memory.cpp">
+      <Filter>Source files\app\app\drivers\memory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\app\app\drivers\memory\memory.h">
+      <Filter>Source files\app\app\drivers\memory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\app\app\drivers\xprintf\xprintf.c">
+      <Filter>Source files\app\app\drivers\xprintf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\app\app\drivers\xprintf\xprintf.h">
+      <Filter>Source files\app\app\drivers\xprintf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\app\app\drivers\xprintf\xuart_stream.cpp">
+      <Filter>Source files\app\app\drivers\xprintf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\app\app\drivers\xprintf\xuart_stream.h">
+      <Filter>Source files\app\app\drivers\xprintf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\app\app\hardware\adc\adc_conv.cpp">
+      <Filter>Source files\app\app\hardware\adc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\app\app\hardware\adc\adc_conv.h">
+      <Filter>Source files\app\app\hardware\adc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\app\app\hardware\adc\median_filter_ekstrom.cpp">
+      <Filter>Source files\app\app\hardware\adc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\app\app\hardware\adc\median_filter_ekstrom.h">
+      <Filter>Source files\app\app\hardware\adc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\app\app\hardware\flash\flash_rw.cpp">
+      <Filter>Source files\app\app\hardware\flash</Filter>
+    </ClCompile>
+    <ClInclude Include="..\app\app\hardware\flash\flash_rw.h">
+      <Filter>Source files\app\app\hardware\flash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Core\Inc\main.h">
+      <Filter>Source files\app\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Core\Inc\stm32f7xx_hal_conf.h">
+      <Filter>Source files\app\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Core\Inc\stm32f7xx_it.h">
+      <Filter>Source files\app\Core\Inc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\app\Core\Src\main.cpp">
+      <Filter>Source files\app\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Core\Src\stm32f7xx_hal_msp.c">
+      <Filter>Source files\app\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Core\Src\stm32f7xx_it.c">
+      <Filter>Source files\app\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Core\Src\syscalls.c">
+      <Filter>Source files\app\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Core\Src\sysmem.c">
+      <Filter>Source files\app\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Core\Src\system_stm32f7xx.c">
+      <Filter>Source files\app\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Core\Startup\startup_stm32f746nghx.S">
+      <Filter>Source files\app\Core\Startup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\app\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f746xx.h">
+      <Filter>Source files\app\Drivers\CMSIS\Device\ST\STM32F7xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h">
+      <Filter>Source files\app\Drivers\CMSIS\Device\ST\STM32F7xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h">
+      <Filter>Source files\app\Drivers\CMSIS\Device\ST\STM32F7xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\cmsis_armcc.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\cmsis_armclang.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\cmsis_compiler.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\cmsis_gcc.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\cmsis_iccarm.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\cmsis_version.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_armv8mbl.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_armv8mml.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_cm0.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_cm0plus.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_cm1.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_cm23.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_cm3.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_cm33.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_cm4.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_cm7.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_sc000.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\core_sc300.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\mpu_armv7.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\mpu_armv8.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\CMSIS\Include\tz_context.h">
+      <Filter>Source files\app\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_adc.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_adc_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cortex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_def.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_exti.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_uart.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_uart_ex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_adc.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_bus.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_cortex.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_dma.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_exti.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_gpio.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_pwr.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_rcc.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_system.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_usart.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_utils.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Drivers\STM32F7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Inc\Legacy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c">
+      <Filter>Source files\app\Drivers\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <None Include="EmbeddedProject1-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="EmbeddedProject1-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+[submodule "app"]
+	path = app
+	url = https://github.com/Makc711/F746-ADC_UART.git
