@@ -102,9 +102,9 @@ int main(void)
   xuart_stream::get_instance().init(huart1);
   const auto adc3 = adc_conv(hadc);
 
-  const memory memory(flash_rw::sector_addr::ADDR_FLASH_PAGE_127);
+  const memory memory(flash_erase::addr::ADDR_FLASH_PAGE_127);
   data_t full_data[k_default_val_length] = { };
-  const memory::status result = memory.read_data(*full_data);
+  const memory::status result = memory.read_data_from_flash(full_data);
   xprintf("Memory read status: %s\r", result == memory::status::READ_OK ? "from FLASH" : "DEFAULT");
 
   uint16_t u_min[adc_conv::channels_num];

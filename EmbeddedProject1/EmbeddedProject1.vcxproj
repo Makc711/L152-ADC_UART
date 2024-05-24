@@ -59,7 +59,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ClCompile>
       <CPPLanguageStandard>CPP1Z</CPPLanguageStandard>
-      <AdditionalIncludeDirectories>..\Core\Inc;..\Drivers\STM32L1xx_HAL_Driver\Inc;..\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy;..\Drivers\CMSIS\Device\ST\STM32L1xx\Include;..\Drivers\CMSIS\Include;..\app\app\hardware\adc;..\app\app\hardware\flash;..\app\app\drivers\memory;..\app\app\drivers\xprintf;..\hardware\eeprom;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Inc;..\Drivers\STM32L1xx_HAL_Driver\Inc;..\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy;..\Drivers\CMSIS\Device\ST\STM32L1xx\Include;..\Drivers\CMSIS\Include;..\app\app\hardware\adc;..\app\app\hardware\flash;..\app\app\drivers\memory;..\app\app\drivers\xprintf;..\hardware\eeprom;../hardware/flash;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;USE_HAL_DRIVER;STM32L152xC;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
@@ -79,6 +79,7 @@
   </ImportGroup>
   <ItemGroup>
     <ClCompile Include="..\app\app\hardware\flash\flash_rw.cpp" />
+    <ClCompile Include="..\hardware\flash\flash_l1.cpp" />
     <ClInclude Include="..\app\app\hardware\flash\flash_rw.h" />
     <ClInclude Include="..\Core\Inc\main.h" />
     <ClInclude Include="..\Core\Inc\stm32l1xx_hal_conf.h" />
@@ -172,6 +173,7 @@
     <ClInclude Include="..\app\app\hardware\adc\adc_conv.h" />
     <ClCompile Include="..\app\app\hardware\adc\median_filter_ekstrom.cpp" />
     <ClInclude Include="..\app\app\hardware\adc\median_filter_ekstrom.h" />
+    <ClInclude Include="..\hardware\flash\flash_l1.h" />
     <None Include="stm32.props" />
     <None Include="EmbeddedProject1-Debug.vgdbsettings" />
     <None Include="EmbeddedProject1-Release.vgdbsettings" />
