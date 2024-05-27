@@ -46,6 +46,8 @@
 ADC_HandleTypeDef hadc;
 DMA_HandleTypeDef hdma_adc;
 
+CRC_HandleTypeDef hcrc;
+
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
@@ -58,6 +60,7 @@ static void MX_GPIO_Init(void);
 static void MX_DMA_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_ADC_Init(void);
+static void MX_CRC_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -98,12 +101,13 @@ int main(void)
   MX_DMA_Init();
   MX_USART1_UART_Init();
   MX_ADC_Init();
+  MX_CRC_Init();
   /* USER CODE BEGIN 2 */
   xuart_stream::get_instance().init(huart1);
   const auto adc3 = adc_conv(hadc);
 
-  const memory memory(flash_erase::addr::ADDR_FLASH_PAGE_127);
-  data_t full_data[k_default_val_length] = { };
+  const memory memory(eeprom_rw::addr::START_ADDR, hcrc);
+  data_t full_data[k_default_val_length] = {};
   const memory::status result = memory.read_data_from_flash(full_data);
   xprintf("Memory read status: %s\r", result == memory::status::READ_OK ? "from FLASH" : "DEFAULT");
 
@@ -276,6 +280,32 @@ static void MX_ADC_Init(void)
   /* USER CODE BEGIN ADC_Init 2 */
 
   /* USER CODE END ADC_Init 2 */
+
+}
+
+/**
+  * @brief CRC Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_CRC_Init(void)
+{
+
+  /* USER CODE BEGIN CRC_Init 0 */
+
+  /* USER CODE END CRC_Init 0 */
+
+  /* USER CODE BEGIN CRC_Init 1 */
+
+  /* USER CODE END CRC_Init 1 */
+  hcrc.Instance = CRC;
+  if (HAL_CRC_Init(&hcrc) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN CRC_Init 2 */
+
+  /* USER CODE END CRC_Init 2 */
 
 }
 
